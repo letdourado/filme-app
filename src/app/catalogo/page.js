@@ -85,7 +85,7 @@ export default function Catalogo() {
       <header className="header-padrao"> {/*header*/}
         <Link href="/"><button className="botao-padrao">Pagina Inicial</button></Link>
         <h2 className='text-2xl'>CineCult</h2>
-        <Link href="/sobre"><button className="botao-padrao">Sobre</button></Link>
+        <button className="botao-padrao">Sobre</button>
       </header>
 
       <div className="flex justify-center space-x-4 mt-8">

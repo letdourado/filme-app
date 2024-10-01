@@ -105,7 +105,7 @@ export default function Filme() { //basicamente primeiro encontra o filme e depo
             <header className="header-padrao">
                 <Link href="/"><button className='botao-padrao'>Pagina Inicial</button></Link>
                 <h2 className='text-2xl'>CineCult</h2>
-                <Link href="/sobre"><button className='botao-padrao'>Sobre</button></Link>
+                <button className="botao-padrao">Sobre</button>
             </header>
 
             <h1 className="text-2xl flex items-center justify-center sm:p-10 font-[family-name:var(--font-geist-sans)]">Cadastrar filme</h1>

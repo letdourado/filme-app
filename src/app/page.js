@@ -9,7 +9,7 @@ export default function Home() {
       <header className="header-padrao">
         <Link href="/"><button className="botao-padrao">Pagina Inicial</button></Link>
         <h2 className='text-2xl'>CineCult</h2>
-        <Link href="/sobre"><button className="botao-padrao">Sobre</button></Link>
+        <button className="botao-padrao">Sobre</button>
       </header>
       
       <div className="flex items-center justify-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
